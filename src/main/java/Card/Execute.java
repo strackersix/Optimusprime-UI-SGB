@@ -47,7 +47,7 @@ public class Execute  {
 	@AfterClass
 	public static void Finalizar() throws InterruptedException {
 		
-		DriverFactory.FinalizaDriverFactory();
+		DriverFactory.finalizarDriverFactory();
 			
 	}
 

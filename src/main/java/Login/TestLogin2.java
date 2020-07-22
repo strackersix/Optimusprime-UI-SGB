@@ -45,14 +45,14 @@ public class TestLogin2 {
 				Reprovado.UrlJira(Parametros.UrlJira);
 				
 				System.out.println("Caso de Teste: ( TestLogin )" + "\n" + "Retestado e reprovado" + "\n");
-				DriverFactory.FinalizaDriverFactory(); Assert.fail("Caso de Teste ( TestLogin )" + "\n" + "Retestado e reprovado" + "\n"); 
+				DriverFactory.finalizarDriverFactory(); Assert.fail("Caso de Teste ( TestLogin )" + "\n" + "Retestado e reprovado" + "\n"); 
 									
 			}
 					
 		} else {
 
 			System.out.println("Caso de Teste: ( TestLogin )" + "\n" + "Possui bug e ainda não foi disponibilizado para a Qualidade retestar."  );
-			DriverFactory.FinalizaDriverFactory(); Assert.fail(TestLogin.Resumo + "\n" + TestLogin.Descricao); 
+			DriverFactory.finalizarDriverFactory(); Assert.fail(TestLogin.Resumo + "\n" + TestLogin.Descricao); 
 						
 		}
 				

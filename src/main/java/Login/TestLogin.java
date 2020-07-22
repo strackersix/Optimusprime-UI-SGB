@@ -55,7 +55,7 @@ public class TestLogin {
 				TerrorDoDev.GravarBugArquivoTXT(BugArquivoTXT);
 
 				System.out.println("Caso de teste: ( TestLogin ) com problema!");
-				DriverFactory.FinalizaDriverFactory(); Assert.fail("Caso de teste: ( TestLogin ) com problema!");
+				DriverFactory.finalizarDriverFactory(); Assert.fail("Caso de teste: ( TestLogin ) com problema!");
 										
 			}
 
